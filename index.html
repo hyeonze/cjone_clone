@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>메인 | CJ ONE</title>
+<link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css" />
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.custom.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<!-- skipNavi -->
+<div id="skipNavi">
+    <a href="#container">본문 바로가기</a>
+</div>
+<!-- //skipNavi -->
+<hr />
+<div class="bg"></div>
+<!-- header -->
+<header id="header">
+    <!-- header_wrap(내려오는 부분) -->
+    <div class="header_wrap">
+        <!-- header_inner(내용물) -->
+        <div class="header_inner">
+            <!-- 로고 -->
+            <h1 class="logo"><a href="index.html"><img src="images/logo_cjone.png" alt="CJ ONE 로고"></a></h1>
+            <!-- mobile -->
+            <div class="mobBtn"><a href="#"><img src="images/btn_gnb_open.png" alt="메뉴 전체보기 열기"></a></div>
+            <div class="mobBtn_close"><a href="#"><img src="images/btn_close.png" alt="메뉴 전체보기 닫기"></a></div>
+            <div class="mob">
+                <dl class="mob_topMenu">
+                    <dt class="blind">탑메뉴</dt>
+                    <dd><a href="#">로그인</a></dd>
+                    <dd><a href="#">회원가입</a></dd>
+                    <dd><a href="#">VIP라운지</a></dd>
+                    <dd><a href="#">매장찾기</a></dd>
+                    <dd><a href="#" title="고객센터 열기">고객센터</a>
+                        <ul>
+                            <li><a href="#">자주 찾는 질문</a></li>
+                            <li><a href="#">1:1 상담</a></li>
+                            <li><a href="#">뉴스&amp;공지</a></li>
+                        </ul>
+                    </dd>
+                    <dd><a href="#">카드등록</a></dd>
+                </dl>
+                <nav class="mob_gnb">
+                    <h2 class="blind">주메뉴</h2>
+                    <ul>
+                        <li>
+                            <a href="#">CJ ONE 소개</a>
+                        </li>
+                        <li>
+                            <a href="#">포인트/카드</a>
+                            <ul>
+                                <li><a href="#">포인트 적립/사용</a></li>
+                                <li><a href="#">제품 브랜드</a></li>
+                                <li><a href="#">보너스 포인트</a></li>
+                                <li><a href="#">포인트 기부</a></li>
+                                <li><a href="#">포인트 선물</a></li>
+                                <li><a href="#">포인트 전환</a></li>
+                                <li><a href="#">기프트포인트 등록</a></li>
+                                <li><a href="#">제휴 신용카드 안내</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">이벤트/쿠폰</a>
+                            <ul>
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">쿠폰</a></li>
+                                <li><a href="#">득템프</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">기프트카드</a>
+                            <ul>
+                                <li><a href="#">나의 기프트카드</a></li>
+                                <li><a href="#">기프트카드 선물</a></li>
+                                <li><a href="#">등록/전환</a></li>
+                                <li><a href="#">선물함</a></li>
+                                <li><a href="#">기프트카드 안내</a></li>
+                                <li><a href="#">기업 대량구매</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">나의 ONE</a>
+                            <ul>
+                                <li><a href="#">나의 ONE</a></li>
+                                <li><a href="#">나의 포인트</a></li>
+                                <li><a href="#">카드 관리/변경</a></li>
+                                <li><a href="#">나의 쿠폰</a></li>
+                                <li><a href="#">응모 이벤트</a></li>
+                                <li><a href="#">ONE콘 구매이력</a></li>
+                                <li><a href="#">나의 상담내역</a></li>
+    
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- 탑메뉴 -->
+            <dl class="topMenu">
+                <dt class="blind">탑메뉴</dt>
+                <dd><a href="#">로그인</a></dd>
+                <dd><a href="#">회원가입</a></dd>
+                <dd><a href="#">VIP라운지</a></dd>
+                <dd><a href="#">매장찾기</a></dd>
+                <dd><a href="#" title="고객센터 열기">고객센터</a>
+                    <ul>
+                        <li><a href="#">자주 찾는 질문</a></li>
+                        <li><a href="#">1:1 상담</a></li>
+                        <li><a href="#">뉴스&amp;공지</a></li>
+                    </ul>
+                </dd>
+                <dd><a href="#">카드등록</a></dd>
+            </dl>
+            <!-- 주메뉴 -->
+            <nav class="gnb">
+                <h2 class="blind">주메뉴</h2>
+                <ul>
+                    <li>
+                        <a href="#">CJ ONE 소개</a>
+                    </li>
+                    <li>
+                        <a href="#">포인트/카드</a>
+                        <ul>
+                            <li><a href="#">포인트 적립/사용</a></li>
+                            <li><a href="#">제품 브랜드</a></li>
+                            <li><a href="#">보너스 포인트</a></li>
+                            <li><a href="#">포인트 기부</a></li>
+                            <li><a href="#">포인트 선물</a></li>
+                            <li><a href="#">포인트 전환</a></li>
+                            <li><a href="#">기프트포인트 등록</a></li>
+                            <li><a href="#">제휴 신용카드 안내</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">이벤트/쿠폰</a>
+                        <ul>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">쿠폰</a></li>
+                            <li><a href="#">득템프</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">기프트카드</a>
+                        <ul>
+                            <li><a href="#">나의 기프트카드</a></li>
+                            <li><a href="#">기프트카드 선물</a></li>
+                            <li><a href="#">등록/전환</a></li>
+                            <li><a href="#">선물함</a></li>
+                            <li><a href="#">기프트카드 안내</a></li>
+                            <li><a href="#">기업 대량구매</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">나의 ONE</a>
+                        <ul>
+                            <li><a href="#">나의 ONE</a></li>
+                            <li><a href="#">나의 포인트</a></li>
+                            <li><a href="#">카드 관리/변경</a></li>
+                            <li><a href="#">나의 쿠폰</a></li>
+                            <li><a href="#">응모 이벤트</a></li>
+                            <li><a href="#">ONE콘 구매이력</a></li>
+                            <li><a href="#">나의 상담내역</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- 검색버튼 -->
+            <div class="info">
+                <span class="srch_open">
+                    <a href="#" title="검색입력서식 열기">검색서식열기</a>
+                </span>
+                <span class="login">
+                    <a href="#" class="appear"></a>
+                    <a href="#" class="loop"></a>
+                </span>
+            </div>
+        </div>
+        <!-- //header_inner -->
+    </div>
+    <!-- //header_wrap -->
+    <!-- 검색박스 -->
+    <form action="#" method="get" class="srch">
+        <fieldset>
+            <legend class="blind">검색하기</legend>
+            <label for="srch" class="blind">검색어 입력하기</label>
+            <input type="search" id="srch" placeholder="검색어를 입력해주세요."><button type="submit">검색</button>
+        </fieldset>
+    </form>
+</header>
+<!-- //header -->
+<hr />
+<!-- 배너 section -->
+<section class="banner">
+    <h2 class="blind">프로모션/광고</h2>
+    <div class="banner_frame">
+        <!-- 1 -->
+        <section>
+            <div>
+                <h3><img src="images/banner_cookit_logo.png" alt="COOKIT" /></h3>
+                <ul>
+                    <li>쿡킷 첫구매 고객이라면<br />
+                        누구나! 9,900원</li>
+                    <li>기간 : 10/7 ~ 10/31</li>
+                    <li><a href="#" title="COOKIT" class="more">자세히 보기</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- 2 -->
+        <section class="white">
+            <div>
+                <h3><img src="images/banner_cjonstyle_logo.png" alt="CJONSTYLE" /></h3>
+                <ul>
+                    <li>앱 첫 쇼핑 고객님을 위한<br />
+                        웰컴기프트 단돈 100원!</li>
+                    <li></li>
+                    <li><a href="#" title="CJONSTYLE" class="more">자세히 보기</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- 3 -->
+        <section class="white">
+            <div>
+                <h3><img src="images/banner_cjthemarket_logo.png" alt="CJ THE MARKET" /></h3>
+                <ul>
+                    <li>CJ 더마켓 가을맞이<br />
+                        최대 45%+<br />
+                        할인 쿠폰 5종 지급</li>
+                    <li>기간 : 10/1 ~ 10/31</li>
+                    <li><a href="#" title="CJ THE MARKET" class="more">자세히 보기</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- 4 -->
+        <section class="white">
+            <div>
+                <h3><img src="images/banner_cgv_logo.png" alt="CGV" /></h3>
+                <ul>
+                    <li>CJ ONE WEEK<br />
+                        월간오페라<br />
+                        '아틸라' 초대&할인</li>
+                    <li>할인적용 상영기간: 10/2(토) ~ 10/30(토)<br />
+                        쿠폰 사용기간: 9/29(수) ~ 10/30(토)</li>
+                    <li><a href="#" title="CGV" class="more">자세히 보기</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- 5 -->
+        <section class="white">
+            <div>
+                <h3><img src="images/banner_cj_logo_white.png" alt="CJONE" /></h3>
+                <ul>
+                    <li>1초 듣고 노래 맞히기!<br />
+                        정답 맞히면<br />
+                        갤럭시 Z플립3 당첨!</li>
+                    <li></li>
+                    <li><a href="#" title="CJONE" class="more">자세히 보기</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- 6 -->
+        <section>
+            <div>
+                <h3><img src="images/banner_cgv_logo_red.png" alt="CGV" /></h3>
+                <ul>
+                    <li>미리 예매하면<br />
+                        CJ ONE POINT<br />
+                        7% 적립!</li>
+                    <li>기간 : 7/30 ~ 12/31</li>
+                    <li><a href="#" title="CGV" class="more">자세히 보기</a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- 7 -->
+        <section>
+            <div>
+                <h3><img src="images/banner_cj_logo.png" alt="CJONE" /></h3>
+                <ul>
+                    <li>CJ ONE X '빛의 벙커'<br />
+                        VIP라면 누구나!<br />
+                        상시 10% 할인(2매)</li>
+                    <li>2021.04.23~2021.12.30</li>
+                    <li><a href="#" title="CJONE" class="more">자세히 보기</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <div class="arrow">
+        <a href="#" class="prev">이전</a>
+        <a href="#" class="next">다음</a>
+    </div>
+    <div class="rolling">
+        <p><a href="#" class="play">재생</a></p>
+        <ul class="banner_roll">
+            <li><a class="on" href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+        </ul>
+    </div>
+</section>
+<!-- //배너 section -->
+<hr />
+<!-- container -->
+<div id="container">
+    <!-- content1 -->
+    <div class="content1">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="quick1"></span>
+                    <dl>
+                        <dt>카드등록 안내</dt>
+                        <dd>발급받은 ONE 카드 등록하세요</dd>
+                    </dl>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="quick2"></span>
+                    <dl>
+                        <dt>포인트 적립처 안내</dt>
+                        <dd>구매 시 ONE 포인트 꼭! 적립하세요</dd>
+                    </dl>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="quick3"></span>
+                    <dl>
+                        <dt>보너스포인트 안내</dt>
+                        <dd>추가 적립 포인트 혜택을 받으세요</dd>
+                    </dl>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="quick4"></span>
+                    <dl>
+                        <dt>쿠폰혜택 안내</dt>
+                        <dd>다양한 할인 혜택을 받으세요</dd>
+                    </dl>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- //content1 -->
+    <hr />
+    <!-- content2 -->
+    <div class="content2">
+        <div class="content2_inner">
+            <h2>가장 핫한 아이템과 컨텐츠를<br />CJ ONE 포인트로 더욱 가볍게 즐기세요!</h2>
+            <!-- 1 -->
+            <article>
+                <a href="#">
+                    <span><img src="images/cnt2_1.jpg" alt="고메 크리스피 양념치킨" /></span>
+                    <div>
+                        <h3><img src="images/cnt2-logo.png" alt="cj제일제당" /></h3>
+                        <ul>
+                            <li>파마산 로제 크림 치킨</li>
+                        </ul>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/cnt2-logo.png" alt="cj제일제당" /></h3>
+                        <ul>
+                            <li>파마산 로제 크림 치킨</li>
+                            <li>메뉴 : 일품요리</li>
+                            <li>난이도 : 중</li>
+                            <li class="more"><a href="#" title="파마산 로제 크림 치킨">레시피 보기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- 2 -->
+            <article class="left">
+                <a href="#">
+                    <span><img src="images/cnt2_2.jpg" alt="아보카도 그릴드콘 & 통목살 스테이크 오픈샌드위치" /></span>
+                    <div>
+                        <h3><img src="images/cnt2-logo.png" alt="cj제일제당" /></h3>
+                        <ul>
+                            <li>아보카도 그릴드콘 & 통목살 스테이크 오픈샌드위치</li>
+                        </ul>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/cnt2-logo.png" alt="cj제일제당" /></h3>
+                        <ul>
+                            <li>아보카도 그릴드콘 & 통목살 스테이크 오픈샌드위치</li>
+                            <li>메뉴 : 김밥/샌드위치</li>
+                            <li>난이도 : 중</li>
+                            <li class="more"><a href="#" title="아보카도 그릴드콘 & 통목살 스테이크 오픈샌드위치">레시피 보기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- 3 -->
+            <article>
+                <a href="#">
+                    <span><img src="images/cnt2_3.jpg" alt="CJ ONE 라이프스타일연구소" /></span>
+                    <div>
+                        <h3><img src="images/cnt2-logo_blog.png" alt="blog" /></h3>
+                        <ul>
+                            <li>CJ ONE 라이프스타일<br />연구소로 놀러오세요</li>
+                            <li>2021.10.12</li>
+                        </ul>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/cnt2-logo_blog.png" alt="blog" /></h3>
+                        <ul>
+                            <li>CJ ONE 라이프스타일<br />연구소로 놀러오세요</li>
+                            <li>2021.10.12</li>
+                            <li class="more"><a href="#" title="">자세히 보기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- 4 -->
+            <article>
+                <a href="#">
+                    <span><img src="images/cnt2_4.jpg" alt="베놈2" /></span>
+                    <div>
+                        <h3><img src="images/cgv_logo.png" alt="cgv" /></h3>
+                        <ul>
+                            <li><span class="grade">15세</span><span class="blind">이상 관람가</span> 베놈 2-렛 데어 비 카니지</li>
+                            <li><span class="reverse">예매율 1위</span> <span class="star">별점0/5</span></li>
+                        </ul>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/cgv_logo.png" alt="cgv" /></h3>
+                        <ul>
+                            <li><span>15세 이상 관람가</span> 베놈 2-렛 데어 비 카니지</li>
+                            <li>누적관객수 : 874명</li>
+                            <li>감독 : 앤디 서키스</li>
+                            <li>상영시간: 97분</li>
+                            <li>예매율 1위 <span>별점0/5</span></li>
+                            <li class="more"><a href="#" title="베놈 2-렛 데어 비 카니지">예매하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- 5 -->
+            <article>
+                <a href="#">
+                    <span><img src="images/cnt2_5.jpg" alt="CJ THE MARKET" /></span>
+                    <div>
+                        <h3><img src="images/cjthemarket_logo.png" alt="CJ THE MARKET" /></h3>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/cjthemarket_logo.png" alt="CJ THE MARKET" /></h3>
+                        <ul>
+                            <li>(THE CJ CUP)비비고 차돌깍두기볶음밥410g+순살 고등어구이 60gX3개+썰은배추김치 500g+(사은품)비비고 장바구니</li>
+                            <li>할인가 17,304원</li>
+                            <li class="more"><a href="#" title="CJ THE MARKET">구매하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- 6 -->
+            <article>
+                <a href="#">
+                    <div>
+                        <h3><img src="images/facebook_logo.png" alt="facebook" /></h3>
+                        <ul>
+                            <li>역대급 경쟁률...실화?ㄷㄷㄷ CJ ONE 대학생 서포터즈 3기의 설레는 첫 만남! 오리엔테이션은 어땠을까?</li>
+                            <li>#CJONE #대외활동 #대학생서...</li>
+                        </ul>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/facebook_logo.png" alt="facebook" /></h3>
+                        <ul>
+                            <li>역대급 경쟁률...실화?ㄷㄷㄷ CJ ONE 대학생 서포터즈 3기의 설레는 첫 만남! 오리엔테이션은 어땠을까?</li>
+                            <li>#CJONE #대외활동 #대학생서...</li>
+                            <li class="more"><a href="#" title="facebook">자세히 보기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- 7 -->
+            <article>
+                <a href="#">
+                    <span><img src="images/cnt2_7.jpg" alt="[갯마을 차차차 공식 굿즈] 러브크러쉬 하트 쿠션" /></span>
+                    <div>
+                        <h3><img src="images/tvingmall_logo.png" alt="tving mall" /></h3>
+                        <ul>
+                            <li>[갯마을 차차차 공식 굿즈] 러브크러쉬 하트 쿠션</li>
+                            <li>30,000원</li>
+                        </ul>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/tvingmall_logo.png" alt="tving mall" /></h3>
+                        <ul>
+                            <li>[갯마을 차차차 공식 굿즈] 러브크러쉬 하트 쿠션</li>
+                            <li>30,000원</li>
+                            <li class="more"><a href="#" title="tving mall">구매하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- 8 -->
+            <article>
+                <a href="#">
+                    <span><img src="images/cnt2_8.jpg" alt="(공식수입정품) 스와들업 라이트 - 신생아속싸개 간절기속싸개" /></span>
+                    <div>
+                        <h3><img src="images/cjonstyle_logo.png" alt="cj onstyle" /></h3>
+                        <ul>
+                            <li>(공식수입정품) 스와들업 라이트 - 신생아속싸개 간절기속싸개</li>
+                            <li><del>64,000원</del> 판매가38,500원</li>
+                        </ul>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/cnt2_8.jpg" alt="(공식수입정품) 스와들업 라이트 - 신생아속싸개 간절기속싸개" /></h3>
+                        <ul>
+                            <li>(공식수입정품) 스와들업 라이트 - 신생아속싸개 간절기속싸개</li>
+                            <li><del>64,000원</del> 판매가38,500원</li>
+                            <li class="more"><a href="#" title="cj onstyle">레시피 보기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- 9 -->
+            <article>
+                <a href="#">
+                    <span><img src="images/cnt2_9.jpg" alt="네오플램 피카 양수냄비 18cm_IH/ 인덕션겸용" /></span>
+                    <div>
+                        <h3><img src="images/cjonstyle_logo.png" alt="cj onstyle" /></h3>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/cjonstyle_logo.png" alt="cj onstyle" /></h3>
+                        <ul>
+                            <li>네오플램 피카 양수냄비 18cm_IH/ 인덕션겸용</li>
+                            <li>39,900원</li>
+                            <li class="more"><a href="#" title="cj onstyle">구매하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- 10 -->
+            <article>
+                <a href="#" class="left">
+                    <span><img src="images/cnt2_10.jpg" alt="12세 이상 관람가 듄" /></span>
+                    <div>
+                        <h3><img src="images/cgv_logo.png" alt="cgv" /></h3>
+                        <ul>
+                            <li><span class="grade">12세</span><span class="blind">이상 관람가</span> 듄</li>
+                            <li><span class="reverse">예매율 2위</span> <span class="star">별점0/5</span></li>
+                        </ul>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/cgv_logo.png" alt="cgv" /></h3>
+                        <ul>
+                            <li><span>12세 이상 관람가</span> 듄</li>
+                            <li>누적관객수 : 0명</li>
+                            <li>감독 : 드니 빌뇌브</li>
+                            <li>상영시간 : 155분</li>
+                            <li>예매율 2위 <span>별점0/5</span></li>
+                            <li class="more"><a href="#" title="cgv">예매하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- 11 -->
+            <article>
+                <a href="#">
+                    <span><img src="images/cnt2_11.jpg" alt="[갯마을 차차차 공식 굿즈] 러브크러쉬 라마 인형" /></span>
+                    <div>
+                        <h3><img src="images/tvingmall_logo.png" alt="tving mall" /></h3>
+                        <ul>
+                            <li>[갯마을 차차차 공식 굿즈] 러브크러쉬 라마 인형</li>
+                            <li>20,000원</li>
+                        </ul>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/tvingmall_logo.png" alt="tving mall" /></h3>
+                        <ul>
+                            <li>[갯마을 차차차 공식 굿즈] 러브크러쉬 라마 인형</li>
+                            <li>20,000원</li>
+                            <li class="more"><a href="#" title="[갯마을 차차차 공식 굿즈] 러브크러쉬 라마 인형">구매하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <!-- 12 -->
+            <article>
+                <a href="#">
+                    <span><img src="images/cnt2_12.jpg" alt="(직배송) 햇반 발아현미밥 210gx24개(1box)" /></span>
+                    <div>
+                        <h3><img src="images/cjthemarket_logo.png" alt="CJ THE MARKET" /></h3>
+                        <ul>
+                            <li>(직배송) 햇반 발아현미밥 210gx24개(1box)</li>
+                            <li>할인가 25,872원</li>
+                        </ul>
+                    </div>
+                </a>
+                <div>
+                    <div class="detail">
+                        <h3><img src="images/cjthemarket_logo.png" alt="CJ THE MARKET" /></h3>
+                        <ul>
+                            <li>(직배송) 햇반 발아현미밥 210gx24개(1box)</li>
+                            <li>할인가 25,872원</li>
+                            <li class="more"><a href="#" title="CJ THE MARKET">구매하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <!-- circle_wrap -->
+        <div class="circle_wrap">
+            <span class="doughnut_Left_L"></span>
+            <span class="doughnut_Left_s"></span>
+            <span class="combine_Left"></span>
+
+            <span class="doughnut_Center_M"></span>
+            <span class="doughnut_Center_s"></span>
+
+            <span class="doughnut_right_M"></span>
+            <span class="doughnut_right_s"></span>
+            <span class="combine_right"></span>
+        </div>
+        <!-- //circle_wrap -->
+    </div>
+    <!-- //content2 -->
+    <hr />
+    <!-- content3 -->
+    <div class="content3">
+        <!-- content3_inner -->
+        <div class="content3_inner">
+            <h2>다양한 CJ 라이프스타일 브랜드에서 ONE하세요!</h2>
+            <ul>
+                <li class="on"><a href="#">전체</a></li>
+                <li><a href="#">엔터테인먼트</a></li>
+                <li><a href="#">쇼핑</a></li>
+                <li><a href="#">외식</a></li>
+                <li><a href="#">유통</a></li>
+            </ul>
+            <div>
+                <ul>
+                    <li class="event ent"><a href="#"><img src="images/cgv_logo.png" alt="cgv"></a><span>결제 금액의 <strong>3~7%적립</strong></span></li>
+                    <li class="ent"><a href="#"><img src="images/tving_logo.png" alt="TVING"></a><span>결제 금액의 <strong>1~5%적립</strong></span></li>
+                    <li class="ent"><a href="#"><img src="images/cjculture_logo.png" alt="cj문화재단"></a><span>젊은 창작문화를 움직이다 <strong>CJ문화재단</strong></span></li>
+                    <li class="ent"><a href="#"><img src="images/catchon_logo.png" alt="CHATCH ON"></a><span>결제 금액의 <strong>1% 적립</strong></span></li>
+
+                    <li class="shop"><a href="#"><img src="images/tvingmall_logo.png" alt="TVING MALL"></a><span>결제 금액의 <strong>1~2% 적립</strong></span></li>
+                    <li class="shop"><a href="#"><img src="images/cjthemarket_offline_logo.png" alt="CJ THE MARKET"></a><span>결제 금액의 <strong>0.1% 적립</strong></span></li>
+                    <li class="shop"><a href="#"><img src="images/oliveyoung_logo.png" alt="OLIVE YOUNG"></a><span>결제 금액의 <strong>0.5~2% 적립</strong></span></li>
+                    <li class="event shop"><a href="#"><img src="images/cjonstyle_logo.png" alt="CJ onstyle"></a><span>결제 금액의 <strong>0.1~0.3% 적립</strong></span></li>
+                    <li class="event shop"><a href="#"><img src="images/cookit_logo.png" alt="COOKIT 셰프의 요리키트"></a><span>결제 금액의 <strong>0.2% 적립</strong></span></li>
+                    <li class="event shop"><a href="#"><img src="images/cjthemarket_logo.png" alt="CJ THE MARKET"></a><span>결제 금액의 <strong>1% 적립</strong></span></li>
+                    <li class="shop"><a href="#"><img src="images/cjemart_logo.png" alt="cj제일제당(이마트)"></a><span>결제 금액의 <strong>0.2% 일일 적립</strong></span></li>
+                    <li class="shop"><a href="#"><img src="images/styleonair_logo.png" alt="STYLE ON AIR"></a><span>결제 금액의 <strong>3% 적립</strong></span></li>
+                    <li class="shop"><a href="#"><img src="images/myct_logo.png" alt="NYCTO WITH YOUR CONTENTS"></a><span>결제 금액의 <strong>3% 적립</strong></span></li>
+
+                    <li class="dinner"><a href="#"><img src="images/seoultower_logo.png" alt="THE PLACE"></a><span>결제 금액의 <strong>0.5% 적립</strong></span></li>
+                    <li class="dinner"><a href="#"><img src="images/the_place_dining_logo.png" alt="SEOUL TOWER"></a><span>결제 금액의 <strong>0.5% 적립</strong></span></li>
+                    <li class="dinner"><a href="#"><img src="images/nterrace_logo.png" alt="N TERRACE"></a><span>결제 금액의 <strong>0.5% 적립</strong></span></li>
+                    <li class="dinner"><a href="#"><img src="images/nburger_logo.png" alt="N BURGER"></a><span>결제 금액의 <strong>0.5% 적립</strong></span></li>
+                    <li class="dinner"><a href="#"><img src="images/vips_logo.png" alt="VIPS"></a><span>결제 금액의 <strong>3% 적립</strong></span></li>
+                    <li class="dinner"><a href="#"><img src="images/touslesjours_logo.png" alt="TOURLlesJOURS"></a><span>결제 금액의 <strong>0.5% 적립</strong></span></li>
+                    <li class="dinner"><a href="#"><img src="images/gjbs_logo.png" alt="계절밥상"></a><span>결제 금액의 <strong>0.5% 적립</strong></span></li>
+                    <li class="dinner"><a href="#"><img src="images/j1jms_logo.png" alt="제일제면소"></a><span>결제 금액의 <strong>0.5% 적립</strong></span></li>
+                    <li class="dinner"><a href="#"><img src="images/theplace_logo.png" alt="THE PLACE TASTE OF MILANO"></a><span>결제 금액의 <strong>0.5% 적립</strong></span></li>
+                    <li class="dinner"><a href="#"><img src="images/thesteakhouse_logo.png" alt="THE STEAK HOUSE"></a><span>결제 금액의 <strong>0.5% 적립</strong></span></li>
+                    <li class="dinner"><a href="#"><img src="images/foodworld_logo.png" alt="CJ FOODWORLD"></a><span>결제 금액의 <strong>0.5% 적립</strong></span></li>
+                    <li class="dinner"><a href="#"><img src="images/juice_logo.png" alt="JUICE SOLUTION"></a><span>결제 금액의 <strong>2% 적립</strong></span></li>
+
+                    <li class="box"><a href="#"><img src="images/cjtruck_logo.png" alt="cj대한통운"></a><span>택배운임의 <strong>2% 적립</strong></span></li>
+                </ul>
+            </div>
+        </div>
+        <!-- //content3_inner -->
+    </div>
+    <!-- //content3 -->
+</div>
+<!-- //container -->
+<hr />
+<!-- footer -->
+<footer id="footer">
+    <!-- footer_inner -->
+    <div class="footer_inner">
+        <ul>
+            <li><a href="#" target="blank">이용약관</a></li>
+            <li><a href="#" target="blank">개인정보처리방침</a></li>
+            <li><a href="#" target="blank">ARS 본인인증</a></li>
+            <li><a href="#" target="blank">법적고지</a></li>
+            <li><a href="#" target="blank">이메일무단수집거부</a></li>
+            <li><a href="#" target="blank">사업자정보확인</a></li>
+        </ul>
+        <dl>
+            <dt class="blind">바로가기</dt>
+            <dd><a href="#">CJ ONE 소개</a></dd>
+            <dd><a href="#">APP 소개</a></dd>
+            <dd><a href="#">사이트맵</a></dd>
+            <dd><a href="#">회사소개</a></dd>
+            <dd class="family_site">
+                <a href="#" title="열기">CJ 그룹 계열사 바로가기</a>
+                <ul>
+                    <li>
+                        <span>CJ그룹</span>
+                        <ul>
+                            <li><a href="#">CJ주식회사</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>식품 &amp; 식품서비스</span>
+                        <ul>
+                            <li><a href="#">CJ제일제당 (식품)</a></li>
+                            <li><a href="#">CJ프레시웨이</a></li>
+                            <li><a href="#">CJ푸드빌</a></li>
+                            <li><a href="#">CJ엠디원</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>생명공학</span>
+                        <ul>
+                            <li><a href="#">CJ제일제당 BIO사업부문</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>신유통</span>
+                        <ul>
+                            <li><a href="#">CJ ENM 커머스부문</a></li>
+                            <li><a href="#">CJ대한통운</a></li>
+                            <li><a href="#">CJ테레닉스</a></li>
+                            <li><a href="#">CJ올리브영</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>앤터테인먼트 & 미디어</span>
+                        <ul>
+                            <li><a href="#">CJ ENM 엔터테인먼트부문</a></li>
+                            <li><a href="#">CJ CGV</a></li>
+                            <li><a href="#">CJ파워캐스트</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span>인프라</span>
+                        <ul>
+                            <li><a href="#">CJ대한통운 건설부문</a></li>
+                            <li><a href="#">CJ올리브네트웍스</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+        <address>
+            <span>대표이사 차인혁(CHA IN HYOK)</span><span> 주소 04323 서울시 용산구 한강대로 366 트윈시티 10층</span>
+            <span>CJ ONE 고객센터 1577-8888</span><span>사업자 등록번호 104-81-36565</span><br />
+            <span>호스팅사업자 CJ올리브네트웍스</span><span>통신판매업신고번호 2017-서울용산-0451</span>
+        </address>
+        <p class="copy">
+            <img src="images/foot_logo.png" alt="CJ올리브네트웍스">
+            <span>Copyright (c)2016 CJ OLIVENETWORKS. All Rights Reserved</span>
+        </p>
+        <div class="top">
+            <a href="#"><img src="images/btn_top.png" alt="페이지 처음으로 이동"></a>
+        </div>
+    </div>
+    <!-- //footer_inner -->
+</footer>
+<!-- //footer -->
+</body>
+</html>
